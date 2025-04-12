@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <form>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">MiSitio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+                  </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <h1>Formularios Bootstrap</h1>   
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert"> 
+                esta es una abvertencia
+                <button type="button" class="btn-close izquierda" data-bs-dismiss="alert" aria-label="close"></button>   
+                <button type="button" class="btn btn-outline-warning">Warning</button>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Nombre</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Apellido</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Telefono</label>
+                <input type="number" class="form-control">
+            </div>
+            
+            <form>
+                <div class="mb-3">
+                  <label class="form-label">Correo</label>
+                  <input type="email" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+
+            <button type="button" class="btn btn-link">Link</button>
+
+            <button class="btn btn-primary">Botón primario</button>
+            <button class="btn btn-success">Éxito</button>
+          </form>
+    </div>
+    
+
+      <!-- Botón para abrir modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal">
+    Abrir modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="miModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Título del modal</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          Contenido del modal aquí.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Cargando...</span>
+  </div>
+
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Nombre</th>
+        <th>Correo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Juan</td><td>juan@example.com</td></tr>
+      <tr><td>2</td><td>Ana</td><td>ana@example.com</td></tr>
+    </tbody>
+  </table>
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> 
+
+</body>
+</html>

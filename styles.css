@@ -1,0 +1,8 @@
+.izquierda{
+    justify-content: left;
+    align-items: left;
+}
+.classflex{
+    display: flex;
+    justify-content: space-around;
+}
